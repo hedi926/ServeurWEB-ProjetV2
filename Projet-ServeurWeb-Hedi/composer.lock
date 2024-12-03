@@ -1,0 +1,65 @@
+{
+    "version": "1.0",
+    "content-hash": "abcdef1234567890",
+    "packages": [
+        {
+            "name": "altorouter/altorouter",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dannyvankooten/AltoRouter.git",
+                "reference": "abcdef1234567890"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://api.github.com/repos/dannyvankooten/AltoRouter/zipball/abcdef1234567890"
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "autoload": {
+                "psr-4": {
+                    "AltoRouter\\": "src/"
+                }
+            },
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "dev": false
+        },
+        {
+            "name": "monolog/monolog",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "abcdef1234567890"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/abcdef1234567890"
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Monolog\\": "src/"
+                }
+            },
+            "dev": false
+        }
+    ],
+    "packages-dev": [],
+    "installers": [],
+    "scripts": [],
+    "config": {
+        "preferred-install": "dist",
+        "optimize-autoloader": true
+    },
+    "platform": {
+        "php": "7.4.3"
+    }
+}
